@@ -23,14 +23,16 @@ def line_print(n):
 modules_to_install = ['requests', 'colorama', 'scrapy', 'lolcat']
 
 banner = f'''{cyan}
- ___             __         __ __            
-|   .-----.-----|  |_.---.-|  |  .-----.----.
-|.  |     |__ --|   _|  _  |  |  |  -__|   _|
-|.  |__|__|_____|____|___._|__|__|_____|__|  
-|:  |            Developer ~ @G_Man_Official                            
-|::.|            Tool ~ Termux Hacking Lab Setup                            
-`---'            For More ~ Join | @hacking_network8
-'''
+
+ /$$$$$$$   /$$$$$$  /$$     /$$ /$$   /$$
+| $$__  $$ /$$__  $$|  $$   /$$/| $$  | $$
+| $$  \ $$| $$  \ $$ \  $$ /$$/ | $$  | $$
+| $$$$$$$/| $$$$$$$$  \  $$$$/  | $$  | $$
+| $$____/ | $$__  $$   \  $$/   | $$  | $$  
+| $$      | $$  | $$    | $$    | $$  | $$  Tool ~ Termux Setup by ArYan.x3
+| $$      | $$  | $$    | $$    |  $$$$$$/  
+|__/      |__/  |__/    |__/     \______/ ''')
+
 colour = f"{no_colour} "
 
 def install_modules(modules):
