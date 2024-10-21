@@ -42,7 +42,7 @@ def line_print(n):
 
 
 # tool version
-version = "1.1"
+version = "2.4"
 
 # CHECK INTERNET
 
@@ -78,21 +78,20 @@ def spin():
 
 def banner():
     print(f'''
-                    {white}                ,@@@@@@@.                                
-                    {white}           @@@@@@@@@@@@@@@@@@@                              
-                    {white}        @@@@@@@@@@@@@@@@@@@@@@@@@                           
-                    {white}      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@                         
-                    {white}    @@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@                       
-                       @@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@& {cyan}| Telegram :: @hacking_network8{white}           
-                       @@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@ {green}| Github :: @G_Man_Official{white}   
-                      .@@@@@@@@@@@@@*  &@@@@@@@@@@@@@@@@@@ {red}| Youtube :: @cyberedge8{white}     
-                       @@@@@@@@@@@&  ,@@@@@@@@@@@@@@@@@@@@ {yellow}| ToolName Termux HackingLab Setup{white}
-                       @@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@& {blue}| Current Version :: 1.1{white}     
-                        @@@@@@@   @@@@@@@/        &@@@@@@                      
-                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@                        
-                            @@@@@@@@@@@@@@@@@@@@@@@@@                          
-                               @@@@@@@@@@@@@@@@@@@                            
-                                     %@@@@@#      
+                    
+                    {white} ____  _  _____  _____  _    
+                    {white}/  __\/ \/__ __\/__ __\/ \ /\
+                    {white}| | //| |  / \    / \  | | ||
+                    {white}| |_\\| |  | |    | |  | \_/|
+                    {white}\____/\_/  \_/    \_/  \____/
+                             
+                         /  _  \\______   \__  |   | /  _  \   \      \  {cyan}| Usaer :: WAIT SETUP{white}
+                        /  /_\  \|       _//   |   |/  /_\  \  /   |   \ {green}| Github :: ArYan.x3{white}  
+                       /    |    \    |   \\____   /    |    \/    |    \ {red}| Youtube :: H4N1B4LL.X3{white}
+                       \____|__  /____|_  // ______\____|__  /\____|__  /{yellow}| ToolName Termux Setup{white} 
+                               \/       \/ \/              \/         \/ {blue}| Current Version :: 2.4{white}
+                       
+                                             
 
                               
                                                                                         
