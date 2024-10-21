@@ -1,6 +1,3 @@
-#!/bin/usr/env python3
-# Code credit goes to https://github.com/mishakorzik/AllHackingTools
-
 import subprocess
 from colorama import Fore, Back, Style
 import os
@@ -27,19 +24,19 @@ def line_print(n):
 try:
     subprocess.call("clear", shell=True)
     subprocess.call("sleep 1", shell=True)
-    print(f"{red} ______                                  __  __           __   _            ")
-    print(f'{cyan}/_  __/__  _________ ___  __  ___  __   / / / /___ ______/ /__(_)___  ____ _')
-    print(f'{yellow} / / / _ \/ ___/ __ `__ \/ / / / |/_/  / /_/ / __ `/ ___/ //_/ / __ \/ __ `/')
-    print(f'{blue} / / /  __/ /  / / / / / / /_/ />  <   / __  / /_/ / /__/ ,< / / / / / /_/ / ')
-    print(f'{red}/_/  \___/_/  /_/ /_/ /_/\__,_/_/|_| _/_/ /_/\__,_/\___/_/|_/_/_/ /_/\__, /  ')
+    print(f"{red}     _       ____     __   __    _      _   _            ")
+    print(f'{cyan}U  /"\  uU |  _"\ u  \ \ / /U  /"\  u | \ |"|')
+    print(f'{yellow}\/ _ \/  \| |_) |/   \ V /  \/ _ \/ <|  \| |>')
+    print(f'{blue} / ___ \   |  _ <    U_|"|_u / ___ \ U| |\  |u ')
+    print(f'{red} /_/   \_\  |_| \_\     |_|  /_/   \_\ |_| \_|  ')
     print(f'{yellow}             __          (_)      __(_)      __                     /____/   ')
     print(f'{green}            / /   ____ _/ /_     / ___/___  / /___  ______                   ')
     print(f'{cyan}           / /   / __ `/ __ \    \__ \/ _ \/ __/ / / / __ \                  ')
     print(f'{red}          / /___/ /_/ / /_/ /   ___/ /  __/ /_/ /_/ / /_/ /                  ')
     print(f'{yellow}         /_____/\__,_/_.___/   /____/\___/\__/\__,_/ .___/                   ')
     print(f'{blue}                                                  /_/                        ')
-    print("                         Tool Name: TermuxSetupHackingLab")
-    print("                           Developer: @G_Man_Official")
+    print("                         Tool Name: Termux setup")
+    print("                           Developer: ArYan.x3")
     print(f'{yellow}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     git_installed = subprocess.call("command -v git > /dev/null 2>&1", shell=True)
     if git_installed == 0:
@@ -154,16 +151,16 @@ try:
 
     subprocess.call("clear", shell=True)
     print(f'''{green}
-   ___             __         __ __          __ 
-  |   .-----.-----|  |_.---.-|  |  .-----.--|  |
-  |.  |     |__ --|   _|  _  |  |  |  -__|  _  |
-  |.  |__|__|_____|____|___._|__|__|_____|_____|
-  |:  |                                         
-  |::.|                                         
-  `---' ''')
-    print("                       Tool Name: TermuxSetupHackingLab")
-    print("                       Developer: @G_Man_Official")
-    print(f"{cyan}                Telegram :: https://t.me/hacking_network8")
+  
+                                    
+_____ _______ ___.__._____    ____  
+\__  \\_  __ <   |  |\__  \  /    \ 
+ / __ \|  | \/\___  | / __ \|   |  \
+(____  /__|   / ____|(____  /___|  /
+     \/       \/          \/     \/ ''')
+    print("                       Tool Name: TermuxSetup")
+    print("                       Developer: ArYan.x3")
+    print(f"{cyan}                user by :: This tool only setup")
     print(f'{yellow}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(f"{green}[+]-[Git].............................[ Installed ]")
     print(f"{green}[+]-[Python]..........................[ Installed ]")
